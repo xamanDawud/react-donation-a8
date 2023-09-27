@@ -15,7 +15,7 @@ const Card = ({ card }) => {
   return (
     <NavLink to={`/detailsDonation/${Id}`}>
       <div style={{ background: card_bg }} className="rounded-b-md">
-        <img src={Picture} alt="" />
+        <img className="w-full" src={Picture} alt="" />
         <span className="px-6 flex-col">
           <p
             className="inline-block font-semibold my-3 p-1 rounded-sm px-2"

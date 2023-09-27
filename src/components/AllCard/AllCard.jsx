@@ -14,7 +14,7 @@ const AllCard = () => {
   //     console.log(card.Picture);
   //   }
   return (
-    <div className="grid grid-cols-4 gap-10 px-10 my-20 ">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 px-10 my-20 ">
       {data.map((card) => (
         <Card key={card.id} card={card}></Card>
       ))}

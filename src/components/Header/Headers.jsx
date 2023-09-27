@@ -3,11 +3,15 @@ import "./Headers.css";
 
 const Headers = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="lg:flex md:flex  justify-between items-center">
       <div>
-        <img className="w-[200px]" src="/src/Resources/Logo.png" alt="" />
+        <img
+          className="mx-auto  w-[200px]"
+          src="/src/Resources/Logo.png"
+          alt=""
+        />
       </div>
-      <div>
+      <div className="ml-[20%] lg:ml-[0%] md:ml-[0%] mt-10 lg:mt-0 md:mt-30">
         <NavLink className="ml-10 font-semibold" to={"/"}>
           Home
         </NavLink>

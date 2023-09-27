@@ -1,8 +1,8 @@
 import "./Banner.css";
 const Banner = () => {
   return (
-    <div className="block text-center py-28 banner my-2 pb-40">
-      <h1 className="text-3xl font-bold my-6">
+    <div className="block text-center py-28 banner my-2 lg:pb-40 ">
+      <h1 className="lg:text-3xl md:text-2xl font-bold my-6">
         I Grow By Helping People In Need
       </h1>
       <span>

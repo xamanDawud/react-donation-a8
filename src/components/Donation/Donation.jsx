@@ -13,7 +13,7 @@ const Donation = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-6 m-12">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-6 m-12">
         {filteredData.slice(0, data).map((data) => (
           <DonationDisplay key={data.Id} data={data}></DonationDisplay>
         ))}
