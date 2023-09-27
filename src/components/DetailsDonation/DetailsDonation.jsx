@@ -1,5 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { saveJobApplication } from "../../Utility/localStorage";
+import { saveDonation } from "../../Utility/localStorage";
 import toast, { Toaster } from "react-hot-toast";
 
 const DetailsDonation = () => {
@@ -10,7 +10,7 @@ const DetailsDonation = () => {
   // console.log(cardDetails);
 
   let donationHandler = (id) => {
-    saveJobApplication(id);
+    saveDonation(id);
     toast("Your donation is added");
   };
   return (

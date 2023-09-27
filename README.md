@@ -1,8 +1,17 @@
-# React + Vite
+# Three Project Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Donation Progress Statistics:
 
-Currently, two official plugins are available:
+* Feature Description: Provide users with a visual representation of the
+  donation progress for each donation route, displaying the percentage of funds
+  raised towards the donation target.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time Donation Toast Notifications:
+
+* Enhance user experience by providing real-time feedback through toast
+  notifications whenever a donation is made.
+
+- Dynamic Show All Button
+- On Donation route user can see easily maximum for donation details. If anyone
+  want to see all that time he can click on show all button and all donation
+  will show and button will be hidden

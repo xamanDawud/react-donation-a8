@@ -1,21 +1,18 @@
-const getStoredJobApplication = () => {
-  const storedJobApplication = localStorage.getItem("job-applications");
-  if (storedJobApplication) {
-    return JSON.parse(storedJobApplication);
+const getStoredDonation = () => {
+  const storedDonation = localStorage.getItem("job-applications");
+  if (storedDonation) {
+    return JSON.parse(storedDonation);
   }
   return [];
 };
 
-const saveJobApplication = (id) => {
-  const storedJobApplications = getStoredJobApplication();
-  const exists = storedJobApplications.find((jobId) => jobId === id);
+const saveDonation = (id) => {
+  const storedDonations = getStoredDonation();
+  const exists = storedDonations.find((jobId) => jobId === id);
   if (!exists) {
-    storedJobApplications.push(id);
-    localStorage.setItem(
-      "job-applications",
-      JSON.stringify(storedJobApplications)
-    );
+    storedDonations.push(id);
+    localStorage.setItem("job-applications", JSON.stringify(storedDonations));
   }
 };
 
-export { getStoredJobApplication, saveJobApplication };
+export { getStoredDonation, saveDonation };

@@ -1,4 +1,4 @@
-import { getStoredJobApplication } from "../../Utility/localStorage";
+import { getStoredDonation } from "../../Utility/localStorage";
 import { useLoaderData } from "react-router-dom";
 import DonationDisplay from "../DonationDisplay/DonationDisplay";
 import { useState } from "react";
@@ -6,7 +6,7 @@ import { useState } from "react";
 const Donation = () => {
   let [data, setData] = useState(4);
   let donationAllData = useLoaderData();
-  let getDonation = getStoredJobApplication();
+  let getDonation = getStoredDonation();
   let filteredData = donationAllData.filter((data) =>
     getDonation.includes(data.Id)
   );
@@ -18,7 +18,7 @@ const Donation = () => {
           <DonationDisplay key={data.Id} data={data}></DonationDisplay>
         ))}
       </div>
-      <div className={`${data > 4 ? "hidden" : "block"}`}>
+      <div className={`${data > 4 ? "hidden" : ""}`}>
         <button
           onClick={() => {
             setData(getDonation.length);

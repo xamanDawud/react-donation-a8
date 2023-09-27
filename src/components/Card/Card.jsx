@@ -1,5 +1,4 @@
 import { NavLink, useParams } from "react-router-dom";
-import { saveJobApplication } from "../../Utility/localStorage";
 const Card = ({ card }) => {
   let {
     Picture,
@@ -12,7 +11,6 @@ const Card = ({ card }) => {
     category_bg,
     title_color,
   } = card;
-
 
   return (
     <NavLink to={`/detailsDonation/${Id}`}>
