@@ -1,11 +1,18 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveJobApplication } from "../../Utility/localStorage";
+import toast, { Toaster } from "react-hot-toast";
 
 const DetailsDonation = () => {
   let datas = useLoaderData();
   let { Id } = useParams();
   let idInt = parseInt(Id);
   let cardDetails = datas.find((data) => data.Id === idInt);
-  console.log(cardDetails);
+  // console.log(cardDetails);
+
+  let donationHandler = (id) => {
+    saveJobApplication(id);
+    toast("Your donation is added");
+  };
   return (
     <div>
       <div className="relative">
@@ -16,8 +23,11 @@ const DetailsDonation = () => {
         />
         <div className="bg-gray-400 w-4/5 ml-[128px] opacity-60 h-[100px] absolute bottom-0">
           <button
+            onClick={() => {
+              donationHandler(idInt);
+            }}
             style={{ background: cardDetails.title_color }}
-            className="p-3 rounded-md mx-8 my-6 text-white"
+            className="p-3 rounded-md mx-8 my-6 text-white opacity-100"
           >
             Donate {cardDetails.Price}
           </button>
@@ -29,6 +39,7 @@ const DetailsDonation = () => {
         </h1>
         <p className="my-6 text-1xl w-4/5 mx-auto">{cardDetails.Description}</p>
       </div>
+      <Toaster />
     </div>
   );
 };
