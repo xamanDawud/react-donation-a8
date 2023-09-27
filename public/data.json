@@ -1,0 +1,134 @@
+[
+  {
+    "Picture": "../src/Resources/Health.png",
+    "Id": 1,
+    "Title": "Authentic Health and Wellness",
+    "Category": "Health",
+    "health_card_bg": "#D9E5FF",
+    "health_category_bg": "#AEC8FF",
+    "health_title_color": "#AEC8FF",
+    "Description": "Authentic Health and Wellness is a comprehensive solution for those seeking a healthier and more balanced life. Our product is designed to support your physical and mental well-being by providing a range of benefits. From stress reduction and improved sleep quality to increased energy levels, our holistic approach to health covers it all. Whether you're a fitness enthusiast or simply looking to enhance your daily life, Authentic Health and Wellness is the ideal choice. Invest in your health today and experience the transformative power of authenticity.",
+    "Price": "$29.99"
+  },
+  {
+    "Picture": "../src/Resources/Education.png",
+    "Id": 4,
+    "Title": "Authentic Learning Experience",
+    "Category": "Education",
+    "education_card_bg": "#FFE3E4",
+    "education_category_bg": "#FFC3C5",
+    "education_title_color": "#FFC3C5",
+    "Description": "Authentic Learning Experience is your gateway to knowledge and enlightenment. In today's fast-paced world, continuous learning is essential, and our product is designed to make it accessible and enjoyable. With a wide range of educational resources, you can expand your horizons and acquire new skills. Whether you're a student or a lifelong learner, Authentic Learning Experience has something to offer. Invest in your intellectual growth today and experience the power of authentic learning.",
+    "Price": "$19.99"
+  },
+  {
+    "Picture": "../src/Resources/Food.png",
+    "Id": 7,
+    "Title": "Authentic Gourmet Delights",
+    "Category": "Food",
+    "food_card_bg": "#FDE9E3",
+    "food_category_bg": "#FCD1C3",
+    "food_title_color": "#F87147",
+    "Description": "Indulge in the world of Authentic Gourmet Delights. We believe that food should be an authentic and sensory experience, and our product offers a curated selection of gourmet treats that tantalize your taste buds. From exotic flavors to artisanal creations, Authentic Gourmet Delights brings you the finest in culinary craftsmanship. Elevate your dining experience and savor the authenticity of every bite.",
+    "Price": "$19.99"
+  },
+  {
+    "Picture": "../src/Resources/Clothing.png",
+    "Id": 10,
+    "Title": "Authentic Fashion Choice",
+    "Category": "Clothing",
+    "clothing_card_bg": "#EBF5E2",
+    "clothing_category_bg": "#D4EAC1",
+    "clothing_title_color": "#79C23F",
+    "Description": "Authentic Fashion Choice is your ultimate style statement for every season. We believe that fashion should be authentic and expressive, and our product offers a wide range of clothing choices that reflect your unique personality. From casual wear to elegant attire, Authentic Fashion Choice has it all. Step into the world of authentic fashion and make a statement wherever you go.",
+    "Price": "$49.99"
+  },
+  {
+    "Picture": "../src/Resources/Health.png",
+    "Id": 2,
+    "Title": "Authentic Holistic Health",
+    "Category": "Health",
+    "health_card_bg": "#D9E5FF",
+    "health_category_bg": "#AEC8FF",
+    "health_title_color": "#AEC8FF",
+    "Description": "Authentic Holistic Health is your partner on the journey to well-being. We understand the importance of a holistic approach to health, and our product is designed to address all aspects of your physical and mental wellness. From boosting your immune system to promoting mental clarity, Authentic Holistic Health offers a wide range of benefits. With regular use, you'll notice improvements in your overall health, enabling you to lead a more fulfilling life. Don't compromise on your health—choose Authentic Holistic Health today.",
+    "Price": "$39.99"
+  },
+  {
+    "Picture": "../src/Resources/Education.png",
+    "Id": 5,
+    "Title": "Authentic Educational Journey",
+    "Category": "Education",
+    "education_card_bg": "#FFE3E4",
+    "education_category_bg": "#FFC3C5",
+    "education_title_color": "#FFC3C5",
+    "Description": "Embark on an authentic educational journey with us. We believe that learning is a lifelong adventure, and our product is your trusted companion on this path. Whether you're interested in academic subjects or personal development, we offer a wealth of resources to cater to your needs. Authentic Educational Journey is more than just a product; it's the key to a brighter future. Don't miss out on the opportunity to expand your knowledge and skills.",
+    "Price": "$29.99"
+  },
+  {
+    "Picture": "../src/Resources/Food.png",
+    "Id": 8,
+    "Title": "Authentic Organic Eats",
+    "Category": "Food",
+    "food_card_bg": "#FDE9E3",
+    "food_category_bg": "#FCD1C3",
+    "food_title_color": "#F87147",
+    "Description": "Nourish your body with Authentic Organic Eats. We understand the importance of wholesome and organic food, and our product offers a range of organic and sustainably sourced options. From fresh produce to pantry staples, Authentic Organic Eats promotes a healthier and more sustainable way of living. Embrace the authenticity of natural ingredients and make a positive impact on your well-being.",
+    "Price": "$29.99"
+  },
+  {
+    "Picture": "../src/Resources/Clothing.png",
+    "Id": 11,
+    "Title": "Authentic Wardrobe Essentials",
+    "Category": "Clothing",
+    "clothing_card_bg": "#EBF5E2",
+    "clothing_category_bg": "#D4EAC1",
+    "clothing_title_color": "#79C23F",
+    "Description": "Build an authentic wardrobe with Authentic Wardrobe Essentials. We understand that clothing is an extension of your identity, and our product offers a curated collection of essential pieces that belong in every closet. From timeless classics to trendy must-haves, Authentic Wardrobe Essentials has you covered. Elevate your style and embrace authenticity with our clothing selections.",
+    "Price": "$59.99"
+  },
+  {
+    "Picture": "../src/Resources/Health.png",
+    "Id": 3,
+    "Title": "Authentic Wellness Solution",
+    "Category": "Health",
+    "health_card_bg": "#D9E5FF",
+    "health_category_bg": "#AEC8FF",
+    "health_title_color": "#AEC8FF",
+    "Description": "Discover the transformative power of Authentic Wellness Solution. We believe that health is the cornerstone of a happy life, and our product is here to support you in achieving optimal well-being. From reducing inflammation to promoting relaxation, our product offers a wide array of benefits. It's time to prioritize your health and invest in Authentic Wellness Solution. Take control of your health journey and experience the difference it can make.",
+    "Price": "$49.99"
+  },
+  {
+    "Picture": "../src/Resources/Education.png",
+    "Id": 6,
+    "Title": "Authentic Knowledge Hub",
+    "Category": "Education",
+    "education_card_bg": "#FFE3E4",
+    "education_category_bg": "#FFC3C5",
+    "education_title_color": "#FFC3C5",
+    "Description": "Authentic Knowledge Hub is your passport to lifelong learning. We understand that education is the foundation of personal growth and success. Our product offers a diverse range of educational resources, from courses on various subjects to skill development programs. Invest in yourself with Authentic Knowledge Hub and embark on a journey of continuous improvement.",
+    "Price": "$39.99"
+  },
+  {
+    "Picture": "../src/Resources/Food.png",
+    "Id": 9,
+    "Title": "Authentic Culinary Adventures",
+    "Category": "Food",
+    "food_card_bg": "#FDE9E3",
+    "food_category_bg": "#FCD1C3",
+    "food_title_color": "#F87147",
+    "Description": "Embark on a journey of flavor with Authentic Culinary Adventures. We believe that food should be an adventure for the senses, and our product offers a diverse range of culinary",
+    "Price": "$29.99"
+  },
+  {
+    "Picture": "../src/Resources/Clothing.png",
+    "Id": 12,
+    "Title": "Authentic Style Revolution",
+    "Category": "Clothing",
+    "clothing_card_bg": "#EBF5E2",
+    "clothing_category_bg": "#D4EAC1",
+    "clothing_title_color": "#79C23F",
+    "Description": "Join the Authentic Style Revolution and express yourself with confidence. We believe that fashion is a powerful form of self-expression, and our product is designed to empower you with authentic style choices. From bold prints to minimalist designs, Authentic Style Revolution celebrates diversity in fashion. Embrace your unique style and be a trendsetter with Authentic Style Revolution.",
+    "Price": "$39.99"
+  }
+]
