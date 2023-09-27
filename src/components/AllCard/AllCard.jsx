@@ -1,5 +1,15 @@
+import { useState } from "react";
+import { useEffect } from "react";
+
 const AllCard = () => {
-  return <div>Here is All Card</div>;
+  let [data, setData] = useState([]);
+  //   useEffect(() => {
+  //     fetch("/public/data.json")
+  //       .then((response) => response.json())
+  //       .then((data) => setData(data));
+  //   }, []);
+  console.log(data);
+  return <div>Here will come all card</div>;
 };
 
 export default AllCard;
