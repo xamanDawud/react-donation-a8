@@ -1,5 +1,4 @@
 import "./Staticks.css";
-import { React } from "react";
 import { ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 
 const Staticks = () => {

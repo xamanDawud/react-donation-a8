@@ -34,7 +34,7 @@
     "Price": "$49.99"
   },
   {
-    "Picture": "https://i.ibb.co/5Y2ctt4/Food.png",
+    "Picture": "https://i.ibb.co/5Y2ctt4/Food.png",       
     "Id": 7,
     "Title": " Gourmet Delights",
     "Category": "Food",
@@ -75,7 +75,7 @@
     "card_bg": "#FFE3E4",
     "category_bg": "#FFC3C5",
     "title_color": "#FF444A",
-    "Description": "Embark on an  educational journey with us. We believe that learning is a lifelong adventure, and our product is your trusted companion on this path. Whether you're interested in academic subjects or personal development, we offer a wealth of resources to cater to your needs.  Educational Journey is more than just a product; it's the key to a brighter future. Don't miss out on the opportunity to expand your knowledge and skills.",
+    "Description": "Embark on an  epucational journey with us. We believe that learning is a lifelong adventure, and our product is your trusted companion on this path. Whether you're interested in academic subjects or personal development, we offer a wealth of resources to cater to your needs.  Educational Journey is more than just a product; it's the key to a brighter future. Don't miss out on the opportunity to expand your knowledge and skills.",
     "Price": "$29.99"
   },
   {

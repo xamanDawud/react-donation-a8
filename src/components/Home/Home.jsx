@@ -1,11 +1,13 @@
+import { useState } from "react";
+import { useLoaderData } from "react-router-dom";
 import AllCard from "../AllCard/AllCard";
-import Banner from "../Banner/Banner";
 
 const Home = () => {
+  let [data, setData] = useState(useLoaderData());
+  // console.log(data);
   return (
     <div>
-      <Banner></Banner>
-      <AllCard></AllCard>
+      <AllCard data={data} setData={setData}></AllCard>
     </div>
   );
 };

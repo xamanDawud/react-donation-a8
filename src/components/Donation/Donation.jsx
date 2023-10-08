@@ -6,6 +6,7 @@ import { useState } from "react";
 const Donation = () => {
   let [data, setData] = useState(4);
   let donationAllData = useLoaderData();
+  console.log(typeof donationAllData);
   let getDonation = getStoredDonation();
   let filteredData = donationAllData.filter((data) =>
     getDonation.includes(data.Id)

@@ -7,7 +7,7 @@ const DetailsDonation = () => {
   let { Id } = useParams();
   let idInt = parseInt(Id);
   let cardDetails = datas.find((data) => data.Id === idInt);
-  // console.log(cardDetails);
+  // console.log(datas);
 
   let donationHandler = (id) => {
     saveDonation(id);
