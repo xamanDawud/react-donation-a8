@@ -20,7 +20,7 @@ const DonationDisplay = ({ data }) => {
       </div>
       <div className="ml-4 my-6">
         <h3
-          className="px-2 rounded-sm inline block py-1 font-semibold"
+          className="px-2 rounded-sm inline-block py-1 font-semibold"
           style={{ background: category_bg, color: title_color }}
         >
           {Category}

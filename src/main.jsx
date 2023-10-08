@@ -5,9 +5,9 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home/Home.jsx";
 import Donation from "./components/Donation/Donation.jsx";
-import Staticks from "./components/Staticks/Staticks.jsx";
 import Middler from "./components/Middler/Middler";
 import DetailsDonation from "./components/DetailsDonation/DetailsDonation";
+import StatisticsReact from "./components/StatisticsReact/StatisticsReact";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +26,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: <Staticks></Staticks>,
+        element: <StatisticsReact></StatisticsReact>,
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/detailsDonation/:Id",
