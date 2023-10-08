@@ -8,11 +8,13 @@ import Donation from "./components/Donation/Donation.jsx";
 import Middler from "./components/Middler/Middler";
 import DetailsDonation from "./components/DetailsDonation/DetailsDonation";
 import StatisticsReact from "./components/StatisticsReact/StatisticsReact";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Middler></Middler>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
